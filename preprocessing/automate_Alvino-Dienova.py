@@ -34,4 +34,4 @@ ct = ColumnTransformer(
 df_preprocessing = pd.DataFrame(ct.fit_transform(df), columns=ct.get_feature_names_out())
 df_preprocessing['rings'] = df['rings']
 
-df_preprocessing.to_csv('abalone_preprocessing.csv', index=False)
+df_preprocessing.to_csv('preprocessing/abalone_preprocessing.csv', index=False)
