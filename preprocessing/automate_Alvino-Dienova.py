@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
-df = pd.read_csv('../abalone.data', header=None, names=[
+df = pd.read_csv('abalone.data', header=None, names=[
     'sex',
     'length',
     'diameter',
